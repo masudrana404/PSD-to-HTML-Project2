@@ -1,0 +1,570 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+/*============================================
+                    BASIC CSS
+  ===========================================*/
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  text-rendering: optimizelegibility;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+}
+
+img{
+  max-width: 100%;
+  height: 100%;
+}
+
+:focus{
+  outline: 0;
+}
+
+/*============================================
+            REUSEABLE COMPONENT
+  ===========================================*/
+
+  .row {
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+
+     
+  .btn:link,
+  .btn:visited,
+  .btn{
+    width: 12rem;
+    height: 3.5rem;
+    color: #fff;
+    background: #10C9C3;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  section{
+    padding: 5rem  0;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+  h1{
+    text-transform: capitalize;
+  }
+
+  h2{
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+  }
+
+  .pragraph-text{
+    color: #787878;
+    font-weight: 400;
+    margin: .5rem auto;
+    width: 50%;
+    font-size: 1.4rem;
+    line-height: 1.8rem
+     
+}
+
+  .about-section h2{
+    text-transform: capitalize;
+    width: 25%;
+  /* margin-left: 37.5%; */
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  h3{
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #181818;
+
+  }
+
+  ul li {
+    list-style: none;
+
+  }
+
+  ul li a{
+    color: #BCBCBC;
+  }
+
+/*============================================
+                HEADER SECTION
+  ===========================================*/
+
+  #home{
+  background-image: url(../../bg/bg_1.jpg);
+  background-position: center left 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  }
+
+  .nav_logo{
+      float: left;
+      width: 8.5rem;
+      margin: -0.675rem;
+    
+    
+  }
+
+  .main_nav{
+    float: right;
+  }
+
+  .main_nav li {
+      display: inline-block;
+      margin: 2.7rem 1rem;
+    
+  }
+  .main_nav li a{
+      text-decoration: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      color: #000;
+  }
+
+  .main_nav li a:hover {
+    color:#10C9C3;
+  }
+
+  .main_nav .active{
+      color:#10C9C3;
+  }
+
+/*HOME CONTENT*/
+
+  .home-content{
+      float: right;
+      width: 50%;
+      padding: 5rem 0;
+      
+     
+  }
+
+  .home-content .pragraph-text{
+    margin: 2rem 0;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+
+  /* MOBILE MENU */
+
+  .mobile_menu span{
+    font-size: 2rem;
+    float: right;
+    margin: 2.5rem;
+    display: none;
+    cursor: pointer;
+  }
+
+  .overlay{
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    width: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    overflow-x: hidden;
+    z-index: 9999;
+  }
+
+  .close_btn{
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    color: #ffff;
+    font-size: 3.5rem;
+    color: #999;
+
+  }
+
+  .overlayContent{
+    position: relative;
+    top: 10%;
+    display: block;
+
+  }
+
+  .overlayContent a{
+    color: #999;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+
+  }
+
+  .overlay a:hover{
+    color: #fff;
+  }
+
+  /*STICKY MENU*/
+
+  .sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #DFE9EB;
+    z-index: 9999;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: 0 .2rem .3rem #00000030;
+            box-shadow: 0 .2rem .3rem #00000030;
+    
+  }
+
+/*============================================
+              ABOUT-US SECTIION 
+  ===========================================*/
+  .about-section img{
+    margin-top: 2rem;
+  }
+
+/*============================================
+              PROFESSIONAL SECTIION 
+  ===========================================*/
+
+  .professional-section{
+    background: url(../../bg/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .professional-section h2{
+    text-transform: capitalize;
+    font-weight: 600;
+
+  }
+
+  .professional-section p{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 2.5rem ;
+    margin-bottom: 1rem;
+    color: #000;
+
+  }
+  .professional_section_1{
+    text-align: left;
+    margin-right: 7.5rem;
+  }
+
+/*============================================
+              COUNTER SECTIION 
+  ===========================================*/
+
+  .counter_section{
+  background: #10C9C3;
+  }
+
+  .counter_section span, p{
+    color: #fff;
+    font-weight: 600;
+  }
+  .counter_section p{
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .counter_section .counter-item{
+    text-align: left;
+    padding: 0  .5rem;
+  }
+
+  .counter_section i{
+    color: #fff;
+    font-size: 2rem;
+    float: left;
+    margin-right: 2rem;
+  }
+
+/*============================================
+              COUNTER SECTIION 
+  ===========================================*/
+
+  .overlay_section{
+    padding: 0 0;
+  }
+
+  .overlay_section .col{
+    margin: 0 0;
+    width: 25%;
+  }
+
+  .overlay_img{
+    height: 22rem;
+  }
+
+  .overlay_img img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay_section button{
+    border: none;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 2rem;
+    font-weight: 600;
+    color: #8D8D8D;
+
+  }
+
+  .overlay_img{
+    position: relative;
+ 
+
+  }
+
+  .overlay_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:#0909098f;
+    overflow-x:hidden;
+    color: #fff;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+      
+  }
+
+  .overlay_img:hover .overlay_content{
+    width: 100%;
+    height: 100%;
+
+  }
+
+/*============================================
+                  PROCESS SECTION
+  ===========================================*/
+
+  .process_section iframe{
+    width: 100%;
+    height: 90vh;
+    margin-top: 2.5rem;
+    border: none;
+
+  }
+
+/*============================================
+                       SERVICES SECTION
+  ============================================*/
+
+  .services_section{
+  background: #F5F5F5;
+          
+  } 
+
+  .services_section p{
+  background: #F5F5F5;
+  color: #787878;
+  font-weight: 400;
+
+
+  } 
+
+  .services_section i{
+  font-size: 3rem;
+  color: #787878;
+         
+  }
+
+  .services_section .row:last-child{
+  padding-top: 2rem;
+
+  }
+
+/*============================================
+             TESTIMONIAL SECTION
+  ============================================*/
+
+  .testimonial_section{
+    background: #10C9C3;
+  }
+
+  .carousel-items p{
+    padding: 0 4.5rem;
+  }
+
+  .carousel-items{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+  }
+
+  .testimonial_section h5{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2rem 0;
+
+  }
+
+  .testimonial_section .owl-theme .owl-dots .owl-dot span{
+    margin-bottom: -3rem;
+  }
+
+  /*============================================
+             SLIDER SECTION
+  ============================================*/
+
+  .slider-section{
+    padding: 0 0;
+  }
+
+
+
+  .slider-section .slider_item img{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span{
+    background: #fff;
+  }
+
+  .testimonial_section .owl-theme .owl-dots .owl-dot span {
+    margin-bottom: -3rem;
+    width: .4rem;
+    height: .4rem;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffffff;
+    width: .6rem !important;
+    height: .6rem !important;
+  }
+
+  .testimonial_section .owl-theme .owl-dots .owl-dot span {
+    margin-bottom: -0.813rem;
+    width: .4rem;
+    height: .4rem;
+  }
+/*============================================
+               CONTACT SECTION
+  ============================================*/
+
+  form{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .contact-section{
+    background: #F5F5F5;
+  }
+
+  .contact-section form input[type="text"],
+  input[type="email"]{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+    
+  }
+
+  .contact-section textarea {
+    margin: 1.5rem 0;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+
+  }
+
+  .btn-submit{
+    border: none;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+/*============================================
+               CONTACT SECTION
+  ============================================*/
+
+  footer{
+    text-align: left;
+    padding: 5rem 0;
+    background: #141414;
+
+  }
+
+  footer p, span{
+    font-weight: 400;
+    color: #BCBCBC;
+  }
+
+  footer .copy_right_issue{
+    margin-top: 1rem;
+  }
+
+ .footer_col p{
+    font-weight: 600;
+    color: #FEFEFE;
+    text-transform: capitalize;
+    font-size: 1.5rem
+  }
+
+  footer ul li{
+    text-transform: capitalize;
+  }
+
+  footer .footer_col p, ul li :hover{
+    color: #FEFEFE;
+  }
+
+  footer .social_media_link{
+  width: 50%;
+  margin-left: 25%;
+
+  }

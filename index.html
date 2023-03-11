@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirol Design, Inc</title>
+    <!--VENDORS CSS FILES-->
+    <link href="resources/img/logo.png" rel="icon">
+    <link href="vendors/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="vendors/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="vendors/css/grid.css" rel="stylesheet">
+    <link href="vendors/css/normalize.css" rel="stylesheet">
+    <link href="vendors/css/animated_progress_bars.css" rel="stylesheet">
+    <!--GOOGLE FONT FAMILY-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <!--RESOURCES CSS FILES-->
+    <link href="resources/css/all.min.css" rel="stylesheet">
+    <link href="resources/css/fontawesome.min.css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/responsive.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--HEADER SECTION START-->
+<header id="home">
+    <nav>
+<div class="row">
+    <a href="#home">
+        <img class="nav_logo" src="resources/img/logo.png" alt="logo">
+     </a>
+     <ul class="main_nav">
+         <li><a class="active" href="#home">home</a></li>
+         <li><a href="#about-us">about</a></li>
+         <li><a href="#overlay">work</a></li>
+         <li><a href="#process">process</a></li>
+         <li><a href="#services">service</a></li>
+         <li><a href="#testimonial">testimonials</a></li>
+         <li><a href="#contact">contact</a></li>
+     </ul>
+     <div class="mobile_menu">
+        <span onclick="openNav()">&#9776;</span>
+        <div class="overlay" id="myNav">
+            <a href="javascript:viod(0)" onclick="closeNav()" class="close_btn">&times;</a>
+            <div class="overlayContent">
+                <a onclick="closeNav()" href="#home">home</a> 
+                <a onclick="closeNav()" href="#about-us">about</a>   
+                <a onclick="closeNav()" href="#overlay">work</a> 
+                <a onclick="closeNav()" href="#process">process</a>  
+                <a onclick="closeNav()" href="#services">service</a>
+                <a onclick="closeNav()" href="#testimonial">testimonials</a> 
+                <a onclick="closeNav()" href="#contact">contact</a>
+            </div>  
+        </div>
+     </div>
+</div>
+    </nav>
+    <div class="row">
+        <div class="home-content">  
+            <h1>we design and develop</h1>
+            <p class="pragraph-text" id="js-home-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut deleniti, perferendis quibusdam ipsum sit dicta nisi mollitia consequuntur est veritatis </p>
+            <div class="home-btn btn">
+                <h3><a href="#contact">contact us</a></h3>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--HEADER SECTION END-->
+
+<!--ABOUT SECTION START-->
+
+<section class="about-section" id="about-us">
+    <div class="row">
+        <h2>about us</h2>
+        <p class="pragraph-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur veritatis ullam ab expedita doloremque id?</p>
+        <img src="resources/img/img_9.png" alt="BG-PHOTO">
+    </div>
+</section>
+
+<!--ABOUT SECTION END-->
+
+<!--PROFESSIONAL SECTION START-->
+
+<section class="professional-section" id="professional"> 
+    <div class="row">
+        <div class="col span_1_of_2">
+            <div class="professional_section_1">
+                <h2>professional skills</h2>
+                <p>UI/UX DESIGN  75%</p>
+                <div id="bar1" class="barfiller">
+                   <div class="tipWrap">
+                        <span></span>
+                        </div>
+                        <span class="fill" data-percentage="75"></span>
+                   </div>
+                    <p>WEB DEVELOPMENT  90%</p>
+                   <div id="bar2" class="barfiller">
+                        <div class="tipWrap">
+                        <span></span>
+                        </div>
+                        <span class="fill" data-percentage="90"></span>
+                   </div>
+                    <p>MARKETING  65%</p>	
+                   <div id="bar3" class="barfiller">
+                        <div class="tipWrap">
+                        <span></span>
+                        </div>
+                        <span class="fill" data-percentage="65"></span>
+                   </div>	
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--PROFESSIONAL SECTION END-->
+
+<!--COUNTER SECTION START-->
+
+<section id="counter" class="counter_section">
+    <div class="row">
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-briefcase"></i>
+            <div class="counter-item">
+                <span class="counter" data-target="540"></span>
+                <p>projects completed</p>
+            </div>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-regular fa-clock"></i>
+            <div class="counter-item">
+                <span class="counter" data-target="1465"></span>
+                <p>workimg hours</p>
+            </div>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-regular fa-star"></i>
+            <div class="counter-item">
+                <span class="counter" data-target="612"></span>
+                <p>positive feedbacks</p>
+            </div>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-sharp fa-regular fa-heart"></i>
+            <div class="counter-item">
+                <span class="counter" data-target="735"></span>
+                <p>happy clients</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--COUNTER SECTION END-->
+
+<!--OVERLAY SECTION START-->
+
+<section id="overlay" class="overlay_section">
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_1.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_2.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_3.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_4.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_5.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_6.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_7.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col span_1_of_4">
+        <div class="overlay_img">
+            <img src="resources/img/img_8.jpg" alt="mobile_phone">
+            <div class="overlay_content">
+                <i class="fa-regular fa-eye-slash"></i>
+            </div>
+        </div>
+    </div>
+    <button type="button">load more work</button>
+</section>
+
+<!--OVERLAY SECTION END-->
+
+<!--PROCESS SECTION START-->    
+
+<section id="process" class="process_section">
+    <div class="row">
+        <h2>our work process</h2>
+        <p class="pragraph-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo, voluptate vitae aperiam voluptatum iure!</p>
+    </div>
+    <div class="row">
+        
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6qBTWBd7TGM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;   web-share" allowfullscreen></iframe>
+
+    </div>
+</section>
+
+<!--PROCESS SECTION END-->
+
+<!--SERVICESS SECTION START-->
+
+<section id="services" class="services_section">
+    <div class="row">
+        <div class="col span_1_of_4">
+            <i class="fa-regular fa-gem"></i>
+            <h3>ui / ux design</h3>
+            <p>Be set fourth land got darkness where in own</p>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>web development</h3>
+            <p>A she'd them bring viod movieing third she'd kind fill</p>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>app / mobile</h3>
+            <p>Domanion man second sprit he earth they're creeping</p>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>game design</h3>
+            <p>Morning his saying moveth it multiply aper life be </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-plane"></i>
+            <h3>seo / marketing</h3>
+            <p>Give own't after land fill creeping meat you, may</p>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-regular fa-star"></i>
+            <h3>photography</h3>
+            <p>Creepeth one seas cattle grass give movimg saw give</p>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h3>graphic design</h3>
+            <p>Open, great whales air rules for, fourth whales </p>
+        </div>
+        <div class="col span_1_of_4">
+            <i class="fa-solid fa-fill-drip"></i>
+            <h3>illustrations</h3>
+            <p>Whales likeness hath, mind kind for them air to won't</p>
+        </div>
+    </div>
+</section>
+
+<!--SERVICESS SECTION END-->
+
+<!--TESTIMONIAL SECTION START-->
+
+<section id="testimonial" class="testimonial_section">
+    <div class="row">
+        <div class="owl-carousel owl-theme">
+            <div class="carousel-items">
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam labore amet placeat. Ipsam, porro facilis. Tenetur possimus libero debitis voluptas obcaecati dicta, quis reprehenderit quas perferendis. Ut, fugit odio.”</p>
+                <h5>michel hopking</h5>
+            </div>
+            <div class="carousel-items">
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam labore amet placeat. Ipsam, porro facilis. Tenetur possimus libero debitis voluptas obcaecati dicta, quis reprehenderit quas perferendis. Ut, fugit odio.”</p>
+                <h5>michel hopking</h5>
+            </div>
+            <div class="carousel-items">
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam labore amet placeat. Ipsam, porro facilis. Tenetur possimus libero debitis voluptas obcaecati dicta, quis reprehenderit quas perferendis. Ut, fugit odio.”</p>
+                <h5>michel hopking</h5>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--TESTIMONIAL SECTION END-->
+
+<!--TESTIMONIAL SECTION 2 START-->
+
+<section id="slider" class="slider-section">
+    <div class="row">
+        <div class="owl-carousel">
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_1.jpg" alt="slider_photo">
+            </div>
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_2.jpg" alt="slider_photo">
+            </div>
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_3.jpg" alt="slider_photo">
+            </div>
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_4.jpg" alt="slider_photo">
+            </div>
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_5.jpg" alt="slider_photo">
+            </div>
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_6.png" alt="slider_photo">
+            </div>
+            <div class="slider_item">
+                <img src="resources/slider_img/slider_7.jpg" alt="slider_photo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--TESTIMONIAL SECTION 2 END-->
+
+<!--CONTACT SECTION START-->
+
+<section id="contact" class="contact-section">
+    <div class="row">
+        <h2>need a project</h2>
+        <p class="pragraph-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus error, quis odio repellat esse!</p>
+    </div>
+    <div class="row">
+        <form action="masud03387@gmail.com" method="POST">
+            <div class="col span_1_of_2">
+                <input placeholder="Your Name*" name="Name" type="text" required>
+            </div>
+            <div class="col span_1_of_2">
+                <input placeholder="Your Email*" name="Emal" type="email" required>
+            </div>
+                <div class="row">
+                    <input placeholder="Your Title" name="Title" type="text" required>
+                </div>
+            <div class="row">
+                <textarea rows="10" cols="30" placeholder="Your Comment*" required></textarea>
+            </div>
+            <div class="row">
+                <input class="btn btn-submit" type="submit" name="Message" value="SEND MESSAGE">
+            </div>
+        </form>
+    </div>
+</section>
+
+<!--CONTACT SECTION END-->
+
+<!---FOOTER SECTION START-->
+
+<footer>
+    <div class="row">
+        <div class="col span_1_of_4">
+            <div class="footer_col">
+                <p>pirol design, inc</p>
+            </div>
+               <div class="copy_right_issue">
+                <p>&copy; 2023 piroll. All right reserved</p>
+                <p>Designed by Masud Rana.</p>
+               </div> 
+            </div>
+        <div class="col span_1_of_4">
+            <p>hello@piroltheme.com</p>
+            <span>+449 857 406</span>
+        </div>
+        <div class="col span_1_of_4">
+            <div class="col span_1_of_2">
+                <ul>
+                    <li><a href="#">project</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">career</a></li>
+                    <li><a href="#">project</a></li>
+                </ul>
+            </div>
+            <div class="col span_1_of_2">
+                <ul><li><a href="#">news</a></li></ul>
+                <ul><li><a href="#">events</a></li></ul>
+                <ul><li><a href="#">contacts</a></li></ul>
+                <ul><li><a href="#">legals</a></li></ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4">
+            <div class="social_media_link">
+                <ul>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">twitter</a></li>
+                    <li><a href="#">instagram</a></li>
+                    <li><a href="#">whats app</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!---FOOTER SECTION END-->
+
+<!--VENDORS JS FILES--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script src="vendors/js/jquery.barfiller.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="vendors/js/owl.carousel.min.js"></script>
+<script src="vendors/js/html5shiv.min.js"></script>
+<script src="vendors/js/respond.min.js"></script>
+<script src="vendors/js/selectivizr.min.js"></script>
+<script src="resources/js/main.js"></script>
+</body>
+</html>
